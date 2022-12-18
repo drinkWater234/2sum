@@ -1,4 +1,10 @@
-Task:
+## Execute
+
+To compile and execute the code, simply run the command:
+1) make
+2) make run
+
+## Task:
 Given an array of values and a sum, return the number of pairs available in that array that add to that sum, in linear time.
 
 E.G:
@@ -9,7 +15,7 @@ output: 2
 
 reasoning: [1, 4] and [2, 3] are the only pairs with the sum 5
 
-Solution thoery:
+## Solution thoery:
 We can construct a dictionary that keep tracks of the difference between the sum and each element of the array, where the value is the difference (i.e, sum - array[index]), and the key is an element value of the given array.
 
 For example, given the input array: [1, 2, 3, 4, 5] and sum = 5
